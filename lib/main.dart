@@ -27,6 +27,7 @@ import 'package:widgets_practice/widgets/radial_gradient.dart';
 import 'package:widgets_practice/widgets/rotated_box.dart';
 import 'package:widgets_practice/widgets/shader_mask.dart';
 import 'package:widgets_practice/widgets/shallow_effect.dart';
+import 'package:widgets_practice/widgets/slivers.dart';
 import 'package:widgets_practice/widgets/spacer.dart';
 import 'package:widgets_practice/widgets/stack.dart';
 import 'package:widgets_practice/widgets/text.dart';
@@ -50,7 +51,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: BlueScreen(),
+      home: MySlivers(),
     );
   }
 }
